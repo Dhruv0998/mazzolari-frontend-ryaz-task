@@ -1,5 +1,4 @@
 import React from "react";
-import logo5 from "../img/5.png";
 import logo6 from "../img/6.png";
 import logo7 from "../img/7.png";
 import logo8 from "../img/8.png";
