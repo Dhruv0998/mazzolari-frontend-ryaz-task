@@ -24,19 +24,27 @@ const Categories = () => {
       <div className="flex justify-around mt-4 ml-16 mr-16">
         <div>
           <img src={logo} alt="" width={250} height={260} />
-          <p className="text-gray-600 rounded-lg bg-white mt-1 font-mono text-lg px-20">SKIN CARE</p>
+          <p className="text-gray-600 rounded-lg bg-white mt-1 font-mono text-lg px-20">
+            SKIN CARE
+          </p>
         </div>
         <div>
           <img src={logo1} alt="" width={250} height={260} />
-          <p className="text-gray-600 rounded-lg bg-white mt-1 font-mono text-lg px-20">SUN CARE</p>
+          <p className="text-gray-600 rounded-lg bg-white mt-1 font-mono text-lg px-20">
+            SUN CARE
+          </p>
         </div>
         <div>
           <img src={logo2} alt="" width={250} height={260} />
-          <p className="text-gray-600 rounded-lg bg-white mt-1 font-mono text-lg px-20">FRAGRANCES</p>
+          <p className="text-gray-600 rounded-lg bg-white mt-1 font-mono text-lg px-20">
+            FRAGRANCES
+          </p>
         </div>
         <div>
           <img src={logo3} alt="" width={250} height={260} />
-          <p className="text-gray-600 rounded-lg bg-white mt-1 font-mono text-lg px-16">BEARD GROOMING</p>
+          <p className="text-gray-600 rounded-lg bg-white mt-1 font-mono text-lg px-16">
+            BEARD GROOMING
+          </p>
         </div>
       </div>
     </div>
