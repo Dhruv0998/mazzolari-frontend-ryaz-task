@@ -21,7 +21,6 @@ const Bestsellers = () => {
 
       {/* Cards Left */}
       <div className="flex mt-4 ml-8 mr-8 justify-between">
-
         <Card sx={{ maxWidth: 200 }}>
           <CardActionArea>
             <CardMedia component="img" height="100" image={logo6} />

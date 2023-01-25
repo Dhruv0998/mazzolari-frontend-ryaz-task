@@ -3,10 +3,10 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import { CardActionArea } from "@mui/material";
-import logo27 from '../img/27.png'
-import logo28 from '../img/28.png'
-import logo29 from '../img/29.png'
-import logo30 from '../img/30.png'
+import logo27 from "../img/27.png";
+import logo28 from "../img/28.png";
+import logo29 from "../img/29.png";
+import logo30 from "../img/30.png";
 
 const AllProducts = () => {
   return (
@@ -22,12 +22,13 @@ const AllProducts = () => {
       </div>
 
       <div className="flex justify-center mt-2">
-        <p className="text-lg italic font-normal">We’re always ready to help you :)</p>
+        <p className="text-lg italic font-normal">
+          We’re always ready to help you :)
+        </p>
       </div>
 
       <div className="mt-10 flex ml-10 mr-10 justify-center space-x-4">
-
-      <Card sx={{ maxWidth: 300 }}>
+        <Card sx={{ maxWidth: 300 }}>
           <CardActionArea>
             <CardMedia component="img" height="120" image={logo27} />
             <CardContent>
@@ -70,9 +71,7 @@ const AllProducts = () => {
             </CardContent>
           </CardActionArea>
         </Card>
-
       </div>
-
     </div>
   );
 };
