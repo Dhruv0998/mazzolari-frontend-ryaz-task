@@ -7,7 +7,6 @@ import logo13 from "../img/13.png";
 import logo16 from "../img/16.png";
 import logo17 from "../img/17.png";
 
-
 const SimilarProducts = () => {
   return (
     <div className="mt-10">

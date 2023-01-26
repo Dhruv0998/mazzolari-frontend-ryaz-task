@@ -5,10 +5,10 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import { CardActionArea } from "@mui/material";
-import logo20 from '../img/20.png'
-import logo21 from '../img/21.png'
-import logo22 from '../img/22.png'
-import logo23 from '../img/23.png'
+import logo20 from "../img/20.png";
+import logo21 from "../img/21.png";
+import logo22 from "../img/22.png";
+import logo23 from "../img/23.png";
 
 const Latest = () => {
   return (
@@ -30,12 +30,14 @@ const Latest = () => {
       </div>
 
       <div className="flex justify-between mt-8">
-      <Card sx={{ maxWidth: 300 }}>
+        <Card sx={{ maxWidth: 300 }}>
           <CardActionArea>
             <CardMedia component="img" height="100" image={logo20} />
             <CardContent>
               <div className="flex justify-between text-base font-serif">
-                <p className="text-base font-medium">Revitalising citrus spray.</p>
+                <p className="text-base font-medium">
+                  Revitalising citrus spray.
+                </p>
                 <p className="text-base font-medium">$60</p>
               </div>
               <div className="text-gray-500 text-sm">
@@ -51,7 +53,9 @@ const Latest = () => {
             <CardMedia component="img" height="100" image={logo21} />
             <CardContent>
               <div className="flex justify-between text-base font-serif">
-                <p className="text-base font-medium">Revitalising citrus spray.</p>
+                <p className="text-base font-medium">
+                  Revitalising citrus spray.
+                </p>
                 <p className="text-base font-medium">$60</p>
               </div>
               <div className="text-gray-500 text-sm">
@@ -67,7 +71,9 @@ const Latest = () => {
             <CardMedia component="img" height="100" image={logo22} />
             <CardContent>
               <div className="flex justify-between text-base font-serif">
-                <p className="text-base font-medium">Revitalising citrus spray.</p>
+                <p className="text-base font-medium">
+                  Revitalising citrus spray.
+                </p>
                 <p className="text-base font-medium">$60</p>
               </div>
               <div className="text-gray-500 text-sm">
@@ -83,7 +89,9 @@ const Latest = () => {
             <CardMedia component="img" height="100" image={logo23} />
             <CardContent>
               <div className="flex justify-between text-base font-serif">
-                <p className="text-base font-medium">Revitalising citrus spray.</p>
+                <p className="text-base font-medium">
+                  Revitalising citrus spray.
+                </p>
                 <p className="text-base font-medium">$60</p>
               </div>
               <div className="text-gray-500 text-sm">

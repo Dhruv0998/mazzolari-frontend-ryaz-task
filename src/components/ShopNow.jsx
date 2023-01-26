@@ -12,7 +12,7 @@ const ShopNow = () => {
           <p> grooming products</p>
         </div>
         <div className="text-white text-2xl ml-56 mt-16 font-semibold cursor-pointer">
-            <p>SHOP NOW</p>
+          <p>SHOP NOW</p>
         </div>
       </div>
     </div>
