@@ -3,7 +3,7 @@ import { BsSearch } from "react-icons/bs";
 
 const Header = () => {
   return (
-    <div className="bg-white flex justify-around py-8 items-center md:flex md:justify-around">
+    <div className="bg-white flex justify-around py-8 items-center md:flex md:justify-around mt-16">
       {/* Header Left */}
       <div className="">
         <h1 className="font-sans text-3xl">

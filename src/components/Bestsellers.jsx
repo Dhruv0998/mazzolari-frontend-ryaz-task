@@ -13,14 +13,14 @@ import { CardActionArea } from "@mui/material";
 
 const Bestsellers = () => {
   return (
-    <div className="bg-white mt-10">
+    <div className="bg-white mt-16">
       {/* Bestsellers */}
       <div className="font-mono ml-32 text-2xl">
         <h3>Bestsellers</h3>
       </div>
 
       {/* Cards Left */}
-      <div className="flex mt-4 ml-8 mr-8 justify-between">
+      <div className="flex mt-8 ml-8 mr-8 justify-between">
         <Card sx={{ maxWidth: 200 }}>
           <CardActionArea>
             <CardMedia component="img" height="100" image={logo6} />

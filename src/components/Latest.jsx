@@ -12,12 +12,12 @@ import logo23 from "../img/23.png";
 
 const Latest = () => {
   return (
-    <div className="mt-10 ml-10 mr-10">
+    <div className="mt-16 ml-10 mr-10">
       <div className="text-lg">
         <p className="text-gray-600 text-base font-bold">SPOTLIGHT</p>
       </div>
 
-      <div className="flex justify-between">
+      <div className="flex justify-between mt-4">
         <div>
           <p className="italic text-lg font-semibold">
             Explore our latest arrivals
@@ -29,7 +29,7 @@ const Latest = () => {
         </div>
       </div>
 
-      <div className="flex justify-between mt-8">
+      <div className="flex justify-between mt-10">
         <Card sx={{ maxWidth: 300 }}>
           <CardActionArea>
             <CardMedia component="img" height="100" image={logo20} />

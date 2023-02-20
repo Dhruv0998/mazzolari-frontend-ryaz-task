@@ -27,7 +27,7 @@ const AllProducts = () => {
         </p>
       </div>
 
-      <div className="mt-10 flex ml-10 mr-10 justify-center space-x-4">
+      <div className="mt-16 flex ml-10 mr-10 justify-center space-x-4">
         <Card sx={{ maxWidth: 300 }}>
           <CardActionArea>
             <CardMedia component="img" height="120" image={logo27} />

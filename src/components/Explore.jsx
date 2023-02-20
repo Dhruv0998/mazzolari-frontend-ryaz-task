@@ -6,13 +6,13 @@ import ArrowCircleRightIcon from "@mui/icons-material/ArrowCircleRight";
 
 const Explore = () => {
   return (
-    <div className="justify-center mt-10 text-2xl cursor-pointer">
+    <div className="justify-center mt-16 text-2xl cursor-pointer">
       {/* Explore */}
       <div className="flex items-center justify-center">
         <h1 className="font-serif text-white bg-black p-4">EXPLORE ALL</h1>
       </div>
 
-      <div className="flex bg-slate-100 mt-8 p-4 ml-10 mr-10">
+      <div className="flex bg-slate-100 mt-16 p-4 ml-10 mr-10">
         <div>
           <img src={logo12} alt="" width={400} />
           <h2 className="text-gray-800 font-serif ml-10 mt-2">

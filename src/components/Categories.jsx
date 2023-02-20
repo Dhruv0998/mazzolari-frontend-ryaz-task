@@ -8,7 +8,7 @@ import logo3 from "../img/4.png";
 
 const Categories = () => {
   return (
-    <div className="bg-white py-0 items-center">
+    <div className="bg-white py-0 items-center mt-16">
       {/* Categories */}
       <div className="flex justify-between">
         <div className="font-mono ml-32 text-2xl">
@@ -21,7 +21,7 @@ const Categories = () => {
       </div>
 
       {/* Carousal */}
-      <div className="flex justify-around mt-4 ml-16 mr-16">
+      <div className="flex justify-around mt-8 ml-16 mr-16">
         <div>
           <img src={logo} alt="" width={250} height={260} />
           <p className="text-gray-600 rounded-lg bg-white mt-1 font-mono text-lg px-20">

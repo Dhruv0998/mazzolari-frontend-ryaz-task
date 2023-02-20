@@ -25,7 +25,7 @@ const Offer = () => {
         </h2>
       </div>
 
-      <div className="flex mt-6 justify-center space-x-10">
+      <div className="flex mt-16 justify-center space-x-10">
         <Card sx={{ maxWidth: 350 }}>
           <CardActionArea>
             <CardMedia component="img" height="150" image={logo24} />

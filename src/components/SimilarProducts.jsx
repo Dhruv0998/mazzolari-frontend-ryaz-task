@@ -9,7 +9,7 @@ import logo17 from "../img/17.png";
 
 const SimilarProducts = () => {
   return (
-    <div className="mt-10">
+    <div className="mt-16">
       <div className="flex justify-between ml-10 mr-10 text-xl font-serif text-gray-700">
         <p>SIMILAR PRODUCTS</p>
         <p>
@@ -17,7 +17,7 @@ const SimilarProducts = () => {
         </p>
       </div>
 
-      <div className="flex mt-8 ml-10 mr-10 justify-between items-center">
+      <div className="flex mt-10 ml-10 mr-10 justify-between items-center">
         <Card sx={{ maxWidth: 150 }}>
           <CardActionArea>
             <CardMedia component="img" height="100" image={logo13} />
